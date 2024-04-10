@@ -17,7 +17,7 @@ const About = () => {
         <div className="pic-box">
           <img
             className="pic"
-            src="/images/portfolio-pic.JPG"
+            src="/images/portfolio-pic.jpg"
             alt="profile-pic"
           />
         </div>
