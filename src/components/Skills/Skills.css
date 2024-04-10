@@ -1,0 +1,55 @@
+.skills {
+	background-color: #fbd3e9;
+	padding-block: 5rem;
+	text-align: center;
+}
+
+.skill {
+	margin-bottom: 2rem;
+}
+
+.skills > h2 {
+	color: #9796f0;
+}
+
+.icons {
+	color: #ffff;
+}
+
+.icons > p {
+	color: #656565;
+	margin-top: 1rem;
+	display: none;
+}
+
+.skill:hover > .icons > p {
+	display: block;
+}
+
+.icon {
+	height: 3rem;
+	width: 3rem;
+}
+
+@media screen and (min-width: 23.4375em) {
+	.icons {
+		text-align: center;
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+
+	.skill {
+		flex-basis: 48%;
+	}
+}
+
+@media screen and (min-width: 47.9375em) {
+	.skills {
+		padding-block: 7rem;
+	}
+
+	.skill {
+		flex-basis: 30%;
+	}
+}

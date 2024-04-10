@@ -1,0 +1,21 @@
+.back-to-top-btn {
+	position: fixed;
+	bottom: 1.5%;
+	right: 5%;
+	height: 3.125rem;
+	width: 3.125rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	background-color: #6e48aa;
+	border-radius: 50%;
+	color: #ffff;
+	box-shadow: 0 3px 0.5625rem #6e48aa;
+	z-index: 99;
+}
+
+.back-to-top-btn > svg {
+	height: 1.5rem;
+	width: 1.5rem;
+}

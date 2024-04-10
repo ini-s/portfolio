@@ -1,0 +1,106 @@
+.contact {
+	padding-block: 5rem;
+	background-color: #9796f0;
+}
+
+.form-top {
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+.form-top > h2 {
+	color: #ffff;
+	margin-bottom: 1rem;
+}
+
+.form-top h3 {
+	color: #6e48aa;
+	font-weight: 400;
+	font-size: 1.7rem;
+}
+
+.contact > a {
+	font-size: 2rem;
+}
+
+.socials > .links {
+	margin-top: 1rem;
+	display: flex;
+	justify-content: center;
+	gap: 3rem;
+}
+
+.links > a > svg {
+	width: 2.1875rem;
+	height: 2.5rem;
+}
+
+.links > a:hover > svg {
+	color: #fbd3e9;
+	transform: scale(1.1);
+}
+
+.contact-form-container {
+	display: block;
+	text-align: center;
+}
+
+.formInputContainer {
+	position: relative;
+	margin-bottom: 1.5rem;
+}
+
+.form-input {
+	padding: 0.625rem;
+	border-radius: 0.375rem;
+	border: 2px solid #c2c6ce;
+	font-weight: 500;
+	width: 100%;
+	font-size: 1.2rem;
+}
+
+.form-input:focus {
+	outline-color: #ffdbe1;
+}
+
+.form-btn {
+	background-color: #fbd3e9;
+	color: #ffff;
+	border: none;
+	border-radius: 0.375rem;
+	padding: 0.5rem 1rem;
+	font-weight: 500;
+	font-size: 1rem;
+	margin-bottom: 1rem;
+}
+
+.socials > h4 {
+	color: #4c1864;
+	font-size: 1.5rem;
+	font-weight: 400;
+}
+
+.inputFooterText {
+	color: #ff0000;
+	font-size: 0.875rem;
+}
+
+@media screen and (min-width: 47.9375em) {
+	.contact-form-container {
+		display: flex;
+	}
+
+	.contact-form {
+		flex-basis: 48%;
+		text-align: left;
+	}
+
+	.socials {
+		flex-basis: 48%;
+	}
+
+	.socials > .links {
+		gap: 0;
+		justify-content: space-around;
+	}
+}
