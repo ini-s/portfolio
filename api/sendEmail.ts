@@ -1,5 +1,5 @@
 import nodemailer from "nodemailer";
-import contactFormEmailTemplate from "../templates/contactForm";
+import contactFormEmailTemplate from "../templates/contactFormEmailTemplate ";
 
 const user = process.env.EMAIL_USER;
 const password = process.env.EMAIL_PASS;
@@ -50,7 +50,7 @@ class EmailService {
 }
 
 const emailService = new EmailService();
-emailService.verifyTransporter(); 
+emailService.verifyTransporter();
 
 export default emailService.sendEmail;
 
