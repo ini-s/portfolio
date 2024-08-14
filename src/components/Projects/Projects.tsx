@@ -22,14 +22,14 @@ const Projects = () => {
     return builder.image(image).url();
   };
 
-  const query = `*[_type == "project"]{
+  const query = `*[_type == "project"] | order(order desc){
 		name,
 		liveURL,
 		githubLink,
 		"languages": languages[]->{title, stackImage},
 		image,
 		hexCode,
-	  }| order(_createdAt asc)`;
+	  }`;
 
   useEffect(() => {
     const fetchData = async () => {
@@ -73,9 +73,11 @@ const Projects = () => {
                   <a href={project.liveURL} className="web-link">
                     <FaArrowUpRightFromSquare />
                   </a>
-                  <a href={project.githubLink} className="web-link">
-                    <FaGithub />
-                  </a>
+                  {project.githubLink && (
+                    <a href={project.githubLink} className="web-link">
+                      <FaGithub />
+                    </a>
+                  )}
                 </div>
               </div>
             </motion.div>
