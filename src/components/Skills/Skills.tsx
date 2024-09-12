@@ -1,16 +1,9 @@
 import "./Skills.css";
 
 import { BiLogoTypescript } from "react-icons/bi";
-import {
-  FaBootstrap,
-  FaCss3Alt,
-  FaGit,
-  FaGithub,
-  FaHtml5,
-  FaReact,
-} from "react-icons/fa";
+import { FaCss3Alt, FaGit, FaGithub, FaHtml5, FaReact } from "react-icons/fa";
 import { RiJavascriptFill } from "react-icons/ri";
-import { SiStyledcomponents, SiSvelte } from "react-icons/si";
+import { SiStyledcomponents, SiSvelte, SiTailwindcss } from "react-icons/si";
 import { DiJqueryLogo } from "react-icons/di";
 import { TbBrandNextjs } from "react-icons/tb";
 
@@ -35,8 +28,8 @@ const Skills = () => {
           <p>CSS3</p>
         </div>
         <div className="skill">
-          <FaBootstrap className="icon" />
-          <p>Bootstrap</p>
+          <SiTailwindcss className="icon" />
+          <p>Tailwind CSS</p>
         </div>
         <div className="skill">
           <SiStyledcomponents className="icon" />

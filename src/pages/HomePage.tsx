@@ -25,8 +25,6 @@ const HomePage = () => {
   };
 
   const handleScroll = () => {
-    console.log("scroll");
-
     if (window.scrollY > 700) {
       setIsVisible(true);
     } else {
