@@ -47,7 +47,10 @@ const About = () => {
           </a>
         </div>
         <button className="cv-btn">
-          <a href="https://docs.google.com/document/d/1KZ3-xvZuS7dCUmcyOJPvf9F3bMjYjoMRLyXtfgTWGYc/edit?tab=t.0#heading=h.e60qeg9t0bqs/export?format=pdf">
+          <a
+            href="https://docs.google.com/document/d/1KZ3-xvZuS7dCUmcyOJPvf9F3bMjYjoMRLyXtfgTWGYc/export?format=pdf"
+            target="_blank"
+          >
             resume
           </a>
         </button>
