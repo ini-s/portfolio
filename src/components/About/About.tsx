@@ -30,10 +30,10 @@ const About = () => {
       >
         <h2>ABOUT</h2>
         <p>
-          A passionate web developer always eager for opportunities to further
-          develop personally and professionally. Experienced in collaborating
-          effectively with teams, refining technical proficiencies, and
-          dedicated to user-centric design principles.
+          A web developer passionate about continuous learning and professional
+          growth. Experienced in collaborating effectively with teams, refining
+          technical proficiencies, and dedicated to user-centric design
+          principles.
         </p>
         <div className="about-links">
           <a href="https://github.com/ini-s">
