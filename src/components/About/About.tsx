@@ -1,7 +1,7 @@
 import "./About.css";
 
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { FaSquareXTwitter } from "react-icons/fa6";
+// import { FaSquareXTwitter } from "react-icons/fa6";
 
 import { motion } from "framer-motion";
 
@@ -30,7 +30,7 @@ const About = () => {
       >
         <h2>ABOUT</h2>
         <p>
-          A web developer passionate about continuous learning and professional
+          A front-end developer passionate about continuous learning and professional
           growth. Experienced in collaborating effectively with teams, refining
           technical proficiencies, and dedicated to user-centric design
           principles.
