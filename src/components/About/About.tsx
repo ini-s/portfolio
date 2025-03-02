@@ -42,9 +42,9 @@ const About = () => {
           <a href="https://www.linkedin.com/in/inioluwa-soetan-b082aa244/">
             <FaLinkedin />
           </a>
-          <a href="https://twitter.com/kiinghazel">
+          {/* <a href="https://twitter.com/kiinghazel">
             <FaSquareXTwitter />
-          </a>
+          </a> */}
         </div>
         <button className="cv-btn">
           <a
