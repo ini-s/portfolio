@@ -1,7 +1,6 @@
 import "./About.css";
 
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-// import { FaSquareXTwitter } from "react-icons/fa6";
 
 import { motion } from "framer-motion";
 
@@ -42,9 +41,6 @@ const About = () => {
           <a href="https://www.linkedin.com/in/inioluwa-soetan-b082aa244/">
             <FaLinkedin />
           </a>
-          {/* <a href="https://twitter.com/kiinghazel">
-            <FaSquareXTwitter />
-          </a> */}
         </div>
         <button className="cv-btn">
           <a
