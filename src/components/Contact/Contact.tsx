@@ -132,7 +132,7 @@ const Contact = () => {
         >
           <h4>Social Links</h4>
           <div className="links">
-            <a href="https://twitter.com/kiinghazel">
+            <a href="https://x.com/hazel_ini">
               <FaSquareXTwitter />
             </a>
             <a href="https://www.linkedin.com/in/inioluwa-soetan-b082aa244/">
