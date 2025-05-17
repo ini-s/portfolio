@@ -1,5 +1,6 @@
 import { FaGithub } from "react-icons/fa";
 import { FaArrowUpRightFromSquare } from "react-icons/fa6";
+import { motion } from "framer-motion";
 
 import "./Projects.css";
 
@@ -10,8 +11,6 @@ import imageUrlBuilder from "@sanity/image-url";
 import createClient from "../../client";
 
 import { Image, ProjectProps } from "../../../types";
-
-import { motion } from "framer-motion";
 
 const Projects = () => {
   const [projects, setProjects] = useState<ProjectProps[]>([]);
